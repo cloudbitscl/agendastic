@@ -1,9 +1,10 @@
 Agendastic
 ================
 
-
 Agendastic es un sistema web de agendamiento para servicios como barberías, centros de salud, 
 profesionales que prestan servicios, entre otros.
+
+**NOTA: ESTE PROYECTO ESTÁ EN ETAPA DE DESARROLLO INICIAL - AÚN NO DISPONIBLE PARA USO**
 
 ### Características planeadas
 
