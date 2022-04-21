@@ -1,0 +1,24 @@
+
+// Bootstrap 4
+@import '~bootstrap/scss/bootstrap';
+
+// Fontawesome
+$fa-font-path:  "fonts" !default;
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// TEMPUSDOMINUS
+@import "~tempusdominus-bootstrap-4/build/css/tempusdominus-bootstrap-4.min.css";
+
+// Select 2
+@import "select2";
+@import "@ttskch/select2-bootstrap4-theme/src/select2-bootstrap4";
+.select2-container--bootstrap4 
+.select2-selection--single.input-lg, 
+.input-group-lg .select2-container--bootstrap4 .select2-selection--single,
+.form-group-lg .select2-container--bootstrap4 .select2-selection--single {
+    padding: 0.8rem 1rem;
+}
+.select2-container{ width: 100% !important; }

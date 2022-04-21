@@ -24,6 +24,7 @@ class CreateProveedorsTable extends Migration
             $table->string('telefono')->nullable();
             $table->string('descripcion_corta')->nullable();
             $table->text('descripcion')->nullable();
+            $table->json('disponibilidad')->nullable();
             $table->timestamps();
         });
     }
